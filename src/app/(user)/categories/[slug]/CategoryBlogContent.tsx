@@ -12,7 +12,7 @@ interface Props {
 const CategoryBlogContent = ({ posts, category }: Props) => {
   const decodedCategory = decodeURIComponent(category);
   const filteredPosts = posts.filter((post) =>
-    post.categories.some((cat) => cat.title === decodedCategory)
+    post.categories?.some((cat) => cat.title === decodedCategory)
   );
 
   return (
