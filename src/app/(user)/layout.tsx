@@ -7,7 +7,7 @@ import Footer from "@/components/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  // metadataBase: new URL(""),
+  metadataBase: new URL("https://ts-nextjs-portfolio-rho.vercel.app/"),
   title: "Next.js Blog Portofolio",
   description:
     "This is the description",

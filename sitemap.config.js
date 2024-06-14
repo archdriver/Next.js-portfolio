@@ -1,7 +1,7 @@
 // sitemap.config.js
 
 module.exports = {
-  siteUrl: "",
+  siteUrl: "https://ts-nextjs-portfolio-rho.vercel.app/",
   generateRobotsTxt: true,
   sitemapSize: 7000,
 };
