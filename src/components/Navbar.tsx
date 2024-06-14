@@ -1,11 +1,8 @@
 "use client";
 
 import React, { useState, useEffect } from "react";
-
 import Logo from "./Logo";
-
 import Link from "next/link";
-
 import { FiMenu, FiX, FiSun, FiMoon } from "react-icons/fi";
 
 const Navbar = () => {
@@ -72,7 +69,7 @@ const Navbar = () => {
               isDarkMode ? "Switch to light mode" : "Switch to dark mode"
             }
           >
-            {isDarkMode ? <FiSun /> : <FiMoon />}
+            {isDarkMode ? <FiSun className="text-white" /> : <FiMoon />}
           </button>
         </div>
         <div className="md:hidden flex items-center">
@@ -83,7 +80,7 @@ const Navbar = () => {
               isDarkMode ? "Switch to light mode" : "Switch to dark mode"
             }
           >
-            {isDarkMode ? <FiSun /> : <FiMoon />}
+            {isDarkMode ? <FiSun className="text-white" /> : <FiMoon />}
           </button>
           {isOpen ? (
             <FiX className="text-2xl" onClick={toggleMenu} />
