@@ -1,0 +1,50 @@
+/* globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Dark mode styles */
+@media (prefers-color-scheme: dark) {
+  html.dark {
+    color-scheme: dark;
+  }
+
+  html.dark body {
+    background-color: #18181b;
+    color: #e4e4e7;
+  }
+
+  html.dark a {
+    color: #9ca3af;
+  }
+
+  html.dark a:hover {
+    color: #e4e4e7;
+  }
+
+  html.dark .bg-white\/70 {
+    background-color: rgba(30, 41, 59, 0.7);
+  }
+
+  html.dark .bg-white {
+    background-color: #18181b;
+  }
+
+  html.dark .text-black {
+    color: #e4e4e7;
+  }
+
+  html.dark .text-gray-900 {
+    color: #e4e4e7;
+  }
+
+  html.dark .hover\:text-black:hover {
+    color: #e4e4e7;
+  }
+  html.dark .bg-gray-100 {
+    background-color: #000011;
+  }
+  button:focus {
+    outline: 2px solid #000; /* or any other contrasting color */
+  }
+}
