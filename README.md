@@ -1,4 +1,4 @@
-## NEXT.JS BLOG PORTOFOLIO
+## NEXT.JS Blog Portfolio 
 
 このポートフォリオを閲覧いただき、ありがとうございます。
 

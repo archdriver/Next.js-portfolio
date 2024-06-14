@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://ts-nextjs-portfolio-rho.vercel.app/"),
-  title: "Next.js Blog Portofolio",
+  title: "Next.js Blog Portfolio",
   description:
     "This is the description",
   keywords: "NextJS",
@@ -21,12 +21,12 @@ export const metadata: Metadata = {
     nocache: false,
   },
   openGraph: {
-    title: "Next.js Blog Portofolio",
+    title: "Next.js Blog Portfolio",
     description:
       "This is the description",
   },
   twitter: {
-    title: "Next.js Blog Portofolio",
+    title: "Next.js Blog Portfolio",
     description:
       "This is the description",
     card: "summary_large_image",

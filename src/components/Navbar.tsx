@@ -42,7 +42,7 @@ const Navbar = () => {
     >
       <div className="max-w-screen-xl mx-auto flex items-center justify-between px-4 lg:px-0 h-full">
         <Logo
-          title="Next.js Blog Portofolio"
+          title="Next.js Blog Portfolio"
           className={`text-${isDarkMode ? "white" : "black"}`}
         />
         <div className="hidden md:inline-flex items-center gap-7 text-gray-900 hover:text-black duration-200">
