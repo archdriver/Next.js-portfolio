@@ -6,7 +6,7 @@
 
 以下のURLからデプロイされたページに移動できますので、ご確認のほどよろしくお願いいたします。
 
-https://ts-nextjs-portfolio-rho.vercel.app/
+https://tsnextjs-portfolio-v2.vercel.app/
 
 ---
 
@@ -16,4 +16,4 @@ This site is a simple blog created using Next.js, Tailwind CSS, Sanity, and othe
 
 You can access the deployed page via the following URL, so please check it out.
 
-https://ts-nextjs-portfolio-rho.vercel.app/
+https://tsnextjs-portfolio-v2.vercel.app/
