@@ -115,7 +115,7 @@ const SlugPage = async ({ params: { slug } }: Props) => {
             </p>
             <div className="flex items-center gap-3">
               <Link
-                href={"https://tsnextjs-portfolio-v2.vercel.app/"}
+                href={"https://github.com/archdriver/Next.js-portfolio"}
                 target="blank"
                 rel="noopener"
                 aria-label="Github Icon"

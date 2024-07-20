@@ -27,7 +27,7 @@ const About = () => {
           <p className="text-3xl text-[#5442ae] font-semibold">Tomoya Sagara</p>
           <div className="flex items-center gap-3">
             <Link
-              href={"https://tsnextjs-portfolio-v2.vercel.app/"}
+              href={"https://github.com/archdriver/Next.js-portfolio"}
               target="blank"
               rel="noopener"
               aria-label="Github Icon"
